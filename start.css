@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../billed-filer/logo.png');
+}
+
+
+.box {
+    width: 500px;
+    height: 850px;
+    background-color: black;
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -0;
+}
+
+.box2 {
+    width: 500px;
+    height: 850px;
+    background-color: black;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+header {
+    color: rgb(11, 0, 255);
+    background-color: black;
+    font-size: 30px;
+    text-align: center;
+}
+
+.highlight {
+    color: blue;
+    cursor: pointer;
+}
+
+section {
+    background-color: black;
+    padding: 449px;
+    color: white;
+    background-image: url('../billed-filer/h1.webp');
+}
+
+.section1 {
+    width: 400px;
+    height: 850px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1;
+    text-align: center;
+}
+
+#section2 { 
+    background-image: url('../billed-filer/call-of-duty-black-ops-6-first-campaign-and-zombies-details_mhug.1280.webp');
+    padding: 460px; /* Add padding here */
+    color: white; /* To ensure text is visible on the background image */
+    z-index: -2;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: black;
+}
